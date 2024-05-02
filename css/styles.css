@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  padding: 0 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  z-index: 100;
+}
+
+/* logo */
+.navbar__logo {
+  width: 70px;
+  height: 70px;
+}
+
+/* links */
+.navbar__links {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.navbar__links a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar__elements {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar__elements a {
+  text-decoration: none;
+  color: white;
+}
+.navbar__elements__items--search {
+  width: 235px;
+  height: 45px;
+  background-color: #ffffff7d;
+  border-radius: 25px;
+}
+.navbar__elements__items--hearth {
+  font-size: 25px;
+}
+
+.navbar__elements__items--cart {
+  font-size: 25px;
+}
+
+.navbar__elements__items--shop {
+  width: 100px;
+  height: 45px;
+  background-color: black;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.hero {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(248, 54, 0);
+  background: linear-gradient(
+      90deg,
+      rgba(248, 54, 0, 0.6628852224483543) 4%,
+      rgba(249, 175, 27, 0.16708690312062324) 49%,
+      rgba(249, 212, 35, 0) 61%
+    ),
+    url("../img/wallpaperflare.com_wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.hero__title--main {
+  top: 25vh;
+  font-family: "Fugaz One", cursive;
+  font-size: 100px;
+  color: white;
+  margin-left: 50px;
+  font-style: italic;
+  line-height: 1em;
+}
+
+.scroll {
+  height: 800px;
+}

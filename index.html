@@ -11,24 +11,39 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="#"><img src="assets/nike-logo.svg" alt="logo nike"></a>
+            <a href="#"><img src="assets/nike-logo.svg" alt="logo nike" class="navbar__logo"></a>
             <div class="navbar__links">
-                <a href="#">MEN</a>
-                <a href="#">WOMAN</a>
-                <a href="#">KIDS</a>
+                <a href="#" class="navbar_links__items">MEN</a>
+                <a href="#" class="navbar_links__items">WOMAN</a>
+                <a href="#" class="navbar_links__items">KIDS</a>
             </div>
             <div class="navbar__elements">
-                <a href="#">SEARCH</a>
-                <a href="#"><img src="assets/heart-regular.svg"></a>
-                <a href="#"><img src="assets/cart.svg"></a>
-                <a href="#">Shop</a>
+                <div class="navbar__elements__items--search">
+
+                </div>
+                <a href="#" class="navbar__elements__items--hearth"><i class="fa-regular fa-heart"></i></a>
+                <a href="#" class="navbar__elements__items--cart"><i class="fa-solid fa-bag-shopping"></i></a>
+                <a href="#" class="navbar__elements__items--shop">Shop</a>
             </div>
         </nav>
     </header>
     <main>
         <section class="hero">
+            <div class="hero__title">
+                <h1 class="hero__title--main">
+                    EVERYTHING <br>
+                    YOU NEED FOR<br>
+                    EVERY MILE.<br>
+                </h1>
+            </div>
+            <div class="hero__btns">
+                <a href="#" class="hero__btns--explore">Find Your Store</a>
+                <a href="#" class="hero__btns--shop">Shop Now</a>
+            </div>
         </section>
+        <div class="scroll"></div>
     </main>
+    <script src="https://kit.fontawesome.com/c9c4c6fda6.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
