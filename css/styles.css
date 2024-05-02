@@ -10,7 +10,7 @@
   position: fixed;
   display: flex;
   width: 100%;
-  height: 70px;
+  height: 55px;
   padding: 0 50px;
   background-color: rgba(255, 255, 255, 0.1);
   justify-content: space-between;
@@ -51,16 +51,16 @@
 }
 .navbar__elements__items--search {
   width: 235px;
-  height: 45px;
+  height: 40px;
   background-color: #ffffff7d;
   border-radius: 25px;
 }
 .navbar__elements__items--hearth {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .navbar__elements__items--cart {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .navbar__elements__items--shop {
@@ -88,6 +88,7 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
+  background-attachment: fixed;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
@@ -96,11 +97,12 @@
 .hero__title--main {
   top: 25vh;
   font-family: "Fugaz One", cursive;
-  font-size: 95px;
+  font-size: 85px;
   color: white;
   margin-left: 50px;
   font-style: italic;
   line-height: 1em;
+  text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.4);
 }
 
 .hero__btns {
@@ -131,6 +133,57 @@
 
 .hero__btns--shop {
   background-color: #080808;
+}
+
+.hero_container__sub1 {
+  position: absolute;
+  bottom: 0;
+  left: 40vw;
+}
+.hero_container__sub1 p {
+  font-family: "Fugaz One", cursive;
+  font-size: 65px;
+  line-height: 1em;
+  color: rgba(255, 255, 255, 0.344);
+  font-style: italic;
+}
+
+.hero_container__sub2 {
+  position: absolute;
+  bottom: 0vh;
+  left: 80vw;
+}
+
+.hero_container__sub2 p {
+  font-family: "Fugaz One", cursive;
+  font-size: 65px;
+  line-height: 1em;
+  color: rgba(255, 255, 255, 0.344);
+  font-style: italic;
+}
+
+.hero__container__redes {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  bottom: 10px;
+  left: 50px;
+}
+
+.hero__container__redes a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 .scroll {
