@@ -88,16 +88,49 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero__title--main {
   top: 25vh;
   font-family: "Fugaz One", cursive;
-  font-size: 100px;
+  font-size: 95px;
   color: white;
   margin-left: 50px;
   font-style: italic;
   line-height: 1em;
+}
+
+.hero__btns {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 2em;
+  margin-left: 3em;
+}
+
+.hero__btns a {
+  display: inline-block;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  width: 200px;
+  height: 60px;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.hero__btns--explore {
+  background-color: #ff540a;
+}
+
+.hero__btns--shop {
+  background-color: #080808;
 }
 
 .scroll {
